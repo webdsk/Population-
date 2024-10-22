@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+    background-color: bisque;
+    
+}
+.wraper{
+    background-color:#000;
+    color: #fff;
+    padding: 150px 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    
+}
+h3{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+}
+#input{
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    padding: 5px 20px;
+    background-color: aqua;
+    font-weight: 800;
+}
+#result{
+    color:#000;
+    font-weight: 900;
+}
